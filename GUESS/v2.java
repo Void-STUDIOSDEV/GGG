@@ -48,6 +48,11 @@ public class v2 {
 						Thread.sleep(1000);
 						System.out.println("WRONG! Do another guess to try again or type '100' to quit\n");
 					}
+				
+					if (points <= 50) {
+						System.out.println("YOU WIN!! CONGRATULATIONS, NOW TRY A HARDER DIFFICULTY!!!");
+						break;
+					}
 				}
 			}
 			
@@ -77,6 +82,11 @@ public class v2 {
 						System.out.println(points);
 						Thread.sleep(1000);
 						System.out.println("WRONG! Do another guess to try!\n");
+					}
+					
+					if (points <= 50) {
+						System.out.println("YOU WIN!! CONGRATULATIONS! Mild difficulty is probably the best for a person like you!\n");
+						break;
 					}
 				}
 			}
@@ -108,6 +118,11 @@ public class v2 {
 						Thread.sleep(1000);
 						System.out.println("\nWRONG! Do another guess to try again!\n");
 					}
+					
+					if (points <= 50) {
+						System.out.println("You can't fight change - Dutch van Der Linde.\n");
+						break;
+					}
 				}
 			}
 			
@@ -137,6 +152,11 @@ public class v2 {
 						System.out.println(points);
 						Thread.sleep(1000);
 						System.out.println("\nWRONG! Do another guess to try again!\n");
+					}
+					
+					if (points <= 50) {
+						System.out.println("After all the testing, I have not even guessed right in this one. COngratulations, really!");
+						break;
 					}
 				}
 			}
