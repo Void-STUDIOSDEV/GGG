@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.util.Random;
 
-public class RAND {
+public class v1 {
 	public static void main(String[] args) throws InterruptedException {
 		Scanner Input = new Scanner(System.in);
 		Random random = new Random();
