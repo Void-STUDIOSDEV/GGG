@@ -155,7 +155,7 @@ public class v2 {
 					}
 					
 					if (points <= 50) {
-						System.out.println("After all the testing, I have not even guessed right in this one. COngratulations, really!");
+						System.out.println("After all the testing, I have not even guessed right in this one. Congratulations, really!");
 						break;
 					}
 				}
